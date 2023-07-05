@@ -366,12 +366,15 @@
 .getStartedSection,
 .getStartedSection * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
 }
 .getStartedSection {
   display: flex;
   flex-direction: row;
   gap: 120px;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   position: relative;
   margin-top: 100px;
@@ -384,15 +387,15 @@
   justify-content: flex-start;
   flex-shrink: 0;
   position: relative;
-}
-.frame-38 {
+  margin-right: 200px;
+} 
+ .frame-38 {
   display: flex;
   flex-direction: column;
   gap: 96px;
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  position: relative;
 }
 .mask-group {
   flex-shrink: 0;
@@ -401,9 +404,10 @@
   position: static;
 }
 
+
 .rounded-1 {
   width: 154px;
-  height: 158px;
+  height: 154px;
   position: absolute;
   left: 0px;
   top: -6px;
@@ -413,7 +417,7 @@
 .rounded-2 {
   border-radius: 50%;
   width: 154px;
-  height: 158px;
+  height: 154px;
   position: absolute;
   left: -7px;
   top: 254px;
@@ -422,7 +426,7 @@
 .rounded-3 {
   border-radius: 50%;
   width: 154px;
-  height: 158px;
+  height: 154px;
   position: absolute;
   left: 190px;
   top: 121px;
@@ -485,7 +489,7 @@
   color: "#000000";
   padding-bottom: 20px;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 120px;
 }
 
 .footerLogo {
@@ -736,7 +740,7 @@ ul.footerTerms {
     align-items: center;
     justify-content: flex-start;
     flex-shrink: 0;
-    position: relative;
+    margin-bottom: 100px;
   }
 
   .frame-24 {

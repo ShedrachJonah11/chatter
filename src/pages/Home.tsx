@@ -137,7 +137,6 @@ const Home: React.FC = () => {
                 <div className="mask-group">
                   <img className="rounded-1" src={img2} alt="" />
                 </div>
-
                 <div className="mask-group">
                   <img className="rounded-2" src={img3} alt="" />
                 </div>
