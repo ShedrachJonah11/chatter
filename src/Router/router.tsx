@@ -4,6 +4,14 @@ export const path = Object.freeze({
     REGISTER: "/register",
     DASHBOARD: "/dashboard",
     CONFIRMCODE: "/confirmcode",
-    // GETSTARTED: "/getstarted",
+    ABOUT: "/about",
+    BLOG: "/blog",
+    CONTACT: "/contact",
+    PROFILE: "/profile",
+    EDITPROFILE: "/editprofile",
+    CHAT: "/chat",
+    CHATROOM: "/chatroom",
+    CHATROOMS: "/chatrooms",
+    CHATROOMSNEW: "/chatroomsnew",
   });
   

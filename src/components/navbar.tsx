@@ -28,9 +28,15 @@ const Navbar = () => {
             <li>
               <Link to={path.HOME}>Home</Link>
             </li>
-            <li>About us</li>
-            <li>Contact</li>
-            <li>Blogs</li>
+            <li>
+              <Link to={path.ABOUT}>About us</Link>
+            </li>
+            <li>
+              <Link to={path.CONTACT}>Contact us</Link>
+            </li>
+            <li>
+              <Link to={path.BLOG}>Blog</Link>
+            </li>
           </ul>
           <div className="authButtonsContainer">
             <div>

@@ -6,6 +6,9 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Dashboard from "./pages/Feeds";
 import ConfirmCode from "./pages/Confirmcode";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Blog from "./pages/Blog";
 
 function App() {
   return (
@@ -16,6 +19,9 @@ function App() {
         <Route path={path.REGISTER} element={<Register />} />
         <Route path={path.DASHBOARD} element={<Dashboard />} />
         <Route path={path.CONFIRMCODE} element={<ConfirmCode />} />
+        <Route path={path.ABOUT} element={<About />} />
+        <Route path={path.CONTACT} element={<Contact />} />
+        <Route path={path.BLOG} element={<Blog />} />
       </Routes>
     </Router>
   );
