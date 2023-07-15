@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles/about.css";
 import frame from "../assets/unsplash_87gLIFoj79c.png";
-import Navbar from "../components/navbar";
+import Navbar from "../components/Navbar";
 
 const About: React.FC = () => {
   return (

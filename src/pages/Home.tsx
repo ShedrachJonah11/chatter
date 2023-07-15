@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/navbar";
+import Navbar from "../components/Navbar";
 import "./styles/home.css";
 import frame from "../assets/unsplash_87gLIFoj79c.png";
 import img1 from "../assets/unsplash_ZHvM3XIOHoE.png";

@@ -5,6 +5,7 @@ import profile from "../assets/profile.png";
 import img2 from "../assets/img1.png";
 import img3 from "../assets/img2.png";
 import img4 from "../assets/img3.png";
+import { Link } from "react-router-dom";
 
 const Feeds: React.FC = () => {
   const user = auth.currentUser;
@@ -13,10 +14,12 @@ const Feeds: React.FC = () => {
   return (
     <div>
       <div className="feed-screen">
-        <div className="frame-43266">
-          <div className="chatter">CHATTER</div>
+        <div className="side-nav">
+          <Link to="/">
+            <div className="chatter">CHATTER</div>
+          </Link>
 
-          <div className="frame-43288">
+          <div className="trending-tag">
             <div className="trending-tags">Trending Tags</div>
 
             <div className="eva-trending-up-outline">
@@ -38,7 +41,7 @@ const Feeds: React.FC = () => {
             </div>
           </div>
 
-          <div className="frame-43289">
+          <div className="trending-list">
             <div className="programming">Programming</div>
 
             <div className="data-science">Data science</div>
@@ -56,9 +59,9 @@ const Feeds: React.FC = () => {
 
           <div className="overview">Overview</div>
 
-          <div className="frame-43293">
-            <div className="frame-43292">
-              <div className="frame-43290">
+          <div className="personal-section-intro">
+            <div className="personal-section">
+              <div className="section-account">
                 <svg
                   className="mdi-account-outline"
                   width="24"
@@ -77,7 +80,7 @@ const Feeds: React.FC = () => {
               </div>
             </div>
 
-            <div className="frame-43291">
+            <div className="section-notification">
               <svg
                 className="basil-notification-outline"
                 width="24"
@@ -98,9 +101,9 @@ const Feeds: React.FC = () => {
             </div>
           </div>
 
-          <div className="frame-43335">
-            <div className="frame-43287">
-              <div className="frame-43270">
+          <div className="overview-section-intro">
+            <div className="overview-section">
+              <div className="overview-feed">
                 <svg
                   className="iconsax-linear-ftxtoken"
                   width="24"
@@ -122,7 +125,7 @@ const Feeds: React.FC = () => {
                 <div className="feed">Feed</div>
               </div>
 
-              <div className="frame-43271">
+              <div className="overview-bookmark">
                 <svg
                   className="material-symbols-bookmarks-outline"
                   width="24"
@@ -141,7 +144,7 @@ const Feeds: React.FC = () => {
                 <div className="bookmarks">Bookmarks</div>
               </div>
 
-              <div className="frame-43285">
+              <div className="overview-teamblog">
                 <svg
                   className="ant-design-team-outlined"
                   width="24"
@@ -159,7 +162,7 @@ const Feeds: React.FC = () => {
                 <div className="team-blogs">Team blogs</div>
               </div>
 
-              <div className="frame-43286">
+              <div className="overview-draft">
                 <svg
                   className="material-symbols-drafts-outline"
                   width="24"
@@ -178,7 +181,7 @@ const Feeds: React.FC = () => {
               </div>
             </div>
 
-            <div className="frame-43334">
+            <div className="overview-analysis">
               <svg
                 className="ic-outline-analytics"
                 width="24"
@@ -317,11 +320,7 @@ const Feeds: React.FC = () => {
                         <div className="mask-group2">
                           <div className="ellipse-52"></div>
 
-                          <img
-                            className="iconImg"
-                            src={img4}
-                            alt=""
-                          />
+                          <img className="iconImg" src={img4} alt="" />
                         </div>
 
                         <div className="frame-43325">
@@ -457,11 +456,7 @@ const Feeds: React.FC = () => {
                       <div className="mask-group2">
                         <div className="ellipse-2"></div>
 
-                        <img
-                          className="iconImg"
-                          src={img3}
-                          alt=""
-                        />
+                        <img className="iconImg" src={img3} alt="" />
                       </div>
 
                       <div className="frame-43302">
@@ -598,11 +593,7 @@ const Feeds: React.FC = () => {
                         <div className="mask-group2">
                           <div className="ellipse-4"></div>
 
-                          <img
-                            className="iconImg"
-                            src={img2}
-                            alt=""
-                          />
+                          <img className="iconImg" src={img2} alt="" />
                         </div>
 
                         <div className="frame-43316">

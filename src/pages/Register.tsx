@@ -92,8 +92,8 @@ const Register: React.FC = () => {
           <h1 className="ml-24 md:ml-48">LOG IN</h1>
         </div>
         <div className="flex items-center mb-10">
-          <hr className="w-44 md:w-64 flex-grow border-t-8 rounded border-slate-200" />
           <hr className="w-44 md:w-64 flex-grow border-t-8 rounded border-blue-900" />
+          <hr className="w-44 md:w-64 flex-grow border-t-8 rounded border-slate-200" />
         </div>
         <div className="flex  mb-10">
           <h1 className="text-3xl">Register as a Writer/Reader</h1>

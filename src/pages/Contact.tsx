@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles/contact.css";
-import Navbar from "../components/navbar";
+import Navbar from "../components/Navbar";
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillTwitterCircle } from "react-icons/ai";
@@ -23,7 +23,6 @@ const Contact: React.FC = () => {
                   id="name"
                   placeholder="NAME"
                   name="name"
-                  value=""
                   required
                 />
               </div>
@@ -36,7 +35,6 @@ const Contact: React.FC = () => {
                   id="email"
                   placeholder="EMAIL"
                   name="email"
-                  value=""
                   required
                 />
               </div>
@@ -95,17 +93,17 @@ const Contact: React.FC = () => {
               </li>
               <li>
                 <a href="#" target="_blank" className="contact-icon">
-                    <AiFillLinkedin className="fa fa-linkedin" />
+                  <AiFillLinkedin className="fa fa-linkedin" />
                 </a>
               </li>
               <li>
                 <a href="#" target="_blank" className="contact-icon">
-                    <AiFillTwitterCircle className="fa fa-twitter" />
+                  <AiFillTwitterCircle className="fa fa-twitter" />
                 </a>
               </li>
               <li>
                 <a href="#" target="_blank" className="contact-icon">
-                    <AiFillInstagram className="fa fa-instagram" />
+                  <AiFillInstagram className="fa fa-instagram" />
                 </a>
               </li>
             </ul>

@@ -23,7 +23,7 @@ const Login: React.FC = () => {
     signInWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
         console.log(userCredential);
-        navigate("/dashboard");
+        navigate("/");
       })
       .catch((error) => {
         setError("Invalid email or password.");
@@ -36,7 +36,7 @@ const Login: React.FC = () => {
     signInWithPopup(auth, provider)
       .then((result) => {
         console.log(result);
-        navigate("/dashboard");
+        navigate("/");
       })
       .catch((error) => {
         setError("Google sign-in failed. Please try again.");
@@ -131,12 +131,12 @@ const Login: React.FC = () => {
               onClick={handleGoogleSignIn}
             >
               <img className="mr-2" src={goggle} alt="" />
-              <h1>Sign up with Google</h1>
+              <h1>Sign in with Google</h1>
             </button>
 
             <button className="items-center cursor-pointer justify-center flex appearance-none text-lg rounded-lg border bg-white-200 shadow w-full py-4 px-3 text-gray-700 mt-4 mb-4 leading-tight focus:outline-none">
               <img className="mr-2" src={linkd} alt="" />
-              <h1>Sign up with Linkedin</h1>
+              <h1>Sign in with Linkedin</h1>
             </button>
           </div>
           <div className="text-center items-center">

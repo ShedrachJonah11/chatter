@@ -9,6 +9,7 @@ import ConfirmCode from "./pages/Confirmcode";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
+import BlogPost from "./pages/BlogPost";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path={path.ABOUT} element={<About />} />
         <Route path={path.CONTACT} element={<Contact />} />
         <Route path={path.BLOG} element={<Blog />} />
+        <Route path="/blog/:id" element={<BlogPost />} />
       </Routes>
     </Router>
   );

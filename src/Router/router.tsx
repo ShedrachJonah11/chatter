@@ -9,6 +9,7 @@ export const path = Object.freeze({
     CONTACT: "/contact",
     PROFILE: "/profile",
     EDITPROFILE: "/editprofile",
+    ACCOUNT: "/account",
     CHAT: "/chat",
     CHATROOM: "/chatroom",
     CHATROOMS: "/chatrooms",
